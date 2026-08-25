@@ -1,0 +1,6 @@
+quantidade_pecas_produzidas = int(input("Digite a quantidade de peças produzidas: "))
+quantidade_pecas_com_defeito = int(input("Digite a quantidade de peças com defeito: "))
+
+pecas_aproveitaveis = quantidade_pecas_produzidas - quantidade_pecas_com_defeito
+
+print(f"A quantidade de peças aproveitáveis é: {pecas_aproveitaveis}")
